@@ -19,34 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ea7372-7869-462b-aba8-ad762a474322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/academi-etl-luigi.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/chinook.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/database.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/disaster_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/file_1000.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reviews_q1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reviews_q1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reviews_q2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reviews_q3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reviews_q4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tweet_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/chinook_customers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/chinook_employees.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/chinook_invoice_items.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/chinook_invoices.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/chinook_playlist_track.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/chinook_tracks.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/database_reviews.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/disaster.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/reviews.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/tweet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extracted/user.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extract_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/extract_transform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/loader.py" afterDir="false" />
-    </list>
+    <list default="true" id="38ea7372-7869-462b-aba8-ad762a474322" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
