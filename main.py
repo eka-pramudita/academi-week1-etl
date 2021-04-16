@@ -1,9 +1,9 @@
 import luigi
-from src.extract_transform import ExtractCompleted
+from src.loader import LoaderCompleted
 
 def main():
 
-    luigi.run(main_task_cls=ExtractCompleted, local_scheduler=False)
+    luigi.run(main_task_cls=LoaderCompleted, local_scheduler=False)
 
 
 if __name__ == "__main__":

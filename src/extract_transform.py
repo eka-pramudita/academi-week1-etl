@@ -43,16 +43,16 @@ class Chinook(luigi.Task):
         playlist_track = dataset['chinook_playlist_track'].merge(tracks[['TrackId', 'TrackTitle']], on='TrackId', how='left').merge(
             dataset['chinook_playlists'], on='PlaylistId', how='left'
         )
-        playlist_track.to_csv('./src/extracted/playlist_track.csv', encoding='utf-8', index=False, header=True)
+        playlist_track.to_csv('./src/extracted/chinook_playlist_track.csv', encoding='utf-8', index=False, header=True)
 
         # Invoice items
         invoice_items = dataset['chinook_invoice_items'].merge(tracks[['TrackId', 'TrackTitle']], on='TrackId',how='left')
-        invoice_items.to_csv('./src/extracted/invoice_items.csv', encoding='utf-8', index=False, header=True)
+        invoice_items.to_csv('./src/extracted/chinook_invoice_items.csv', encoding='utf-8', index=False, header=True)
 
         # The rest
-        dataset['chinook_invoices'].to_csv('./src/extracted/invoices.csv', encoding='utf-8', index=False, header=True)
-        dataset['chinook_customers'].to_csv('./src/extracted/customers.csv', encoding='utf-8', index=False, header=True)
-        dataset['chinook_employees'].to_csv('./src/extracted/employees.csv', encoding='utf-8', index=False, header=True)
+        dataset['chinook_invoices'].to_csv('./src/extracted/chinook_invoices.csv', encoding='utf-8', index=False, header=True)
+        dataset['chinook_customers'].to_csv('./src/extracted/chinook_customers.csv', encoding='utf-8', index=False, header=True)
+        dataset['chinook_employees'].to_csv('./src/extracted/chinook_employees.csv', encoding='utf-8', index=False, header=True)
 
         conn.close()
 
