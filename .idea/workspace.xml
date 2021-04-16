@@ -30,6 +30,8 @@
       <change afterPath="$PROJECT_DIR$/data/reviews_q3.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/reviews_q4.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/tweet_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extracted/reviews.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extract_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/extract_transform.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
