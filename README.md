@@ -9,7 +9,7 @@ lead you anywhere even with the best data analytics method. In ETL process
 we make sure that the data is ready to use to support business decision making
 
 <div align="center">
-<img src=https://www.guru99.com/images/1/022218_0848_ETLExtractT1.png" >
+<img src="https://www.guru99.com/images/1/022218_0848_ETLExtractT1.png" >
 </div>
 
 ## Luigi
@@ -21,7 +21,7 @@ part of Luigi is it has a Graphical User Interface (GUI) showing status
 of the tasks and graphical representation of your pipeline.
 
 <div align="center">
-<img src=https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png" >
+<img src="https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png" >
 </div>
 
 ### Data Pipeline
