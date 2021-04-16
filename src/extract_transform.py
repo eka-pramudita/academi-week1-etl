@@ -65,7 +65,7 @@ class Database(luigi.Task):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.columns = ['artists', 'content', 'genres',
+        self.tables = ['artists', 'content', 'genres',
                         'labels', 'reviews', 'years']
 
     def requires(self):
@@ -77,6 +77,19 @@ class Database(luigi.Task):
         return self.completed
 
     def run(self):
+        conn = sqlite3.connect('./data/database.sqlite')
+
+        dataset = {}
+        for table in self.tables:
+            dataset["database_{}".format(table)] = pd.read_sql_query("SELECT * FROM {}".format(table), conn)
+
+        reviews = dataset['database_reviews'].merge(
+            dataset['database_content'], on='reviewid', how='left').merge(
+            dataset['database_genres'], on='reviewid', how='left').merge(
+            dataset['database_labels'], on='reviewid', how='left')
+        reviews.to_csv('./src/extracted/database_reviews.csv', encoding='utf-8', index=False, header=True)
+
+        conn.close()
 
         self.completed = True
 
