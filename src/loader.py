@@ -1,7 +1,7 @@
 import sqlite3
 import luigi
 import pandas as pd
-from src.extract_transform import ExtractCompleted
+from Scripts.extract_transform import ExtractCompleted
 
 
 class ChinookLoader(luigi.Task):

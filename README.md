@@ -180,6 +180,13 @@ You will find your dashboard running through the GUI:
 <small> Pending task appeared </small>
 </div><br />
 
+When all tasks are done, the dashboard will show no pending tasks.
+The pipeline visualization will be looked like this:
+<div align="center">
+<img src="https://drive.google.com/uc?export=view&id=1vj_JPCn8Cq4DICrKyQTcAfd8vihjMjuJ">
+<small> All tasks completed </small>
+</div><br />
+
 ## Summary
 Since ETL process is fundamental in Data Analytics process, this process needs
 to be carefully monitored. Using Luigi, the ETL pipeline monitoring is easy
