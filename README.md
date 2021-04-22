@@ -77,7 +77,7 @@ after this.
 
 ### Data Processing Section
 This section will discuss about how the data is being processed in this project.
-Please find the data for this project [here](https://drive.google.com/drive/folders/1Q-0C5woTJAoCVue7MeJICwUhbUU4uIjP?usp=sharing).
+Please find the data in folder `data/`.
 
 #### Chinook Database
 This database consists of 14 tables. Output resulted is 6 tables, coming from
