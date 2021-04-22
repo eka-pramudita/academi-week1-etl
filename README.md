@@ -120,7 +120,7 @@ with no observations, resulting 29 fields in the final table.
 
 ## Load
 We already have our extracted and transformed data in `src/extracted` folder.
-First step of Load process is setting connection to the database thaw will
+First step of Load process is setting connection to the database that will
 act as a data warehouse. After setting up a connection then store the data
 using pandas command `to_sql`. Below is the example of load task:
 
